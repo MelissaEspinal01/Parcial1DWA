@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cafetería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Barra de Navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Barbie's Dream Café</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Carrusel de Fotos -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Smoothie bowl rosa.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Plato 1</h5>
+        <p>Descripción de plato.
+            Smoothie bowl rosa: A base de frutas como fresas, frambuesas y plátano, decorado con granola, semillas de chía, coco rallado y flores comestibles.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/Tostada rosa.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Plato 2</h5>
+        <p>Descripción de plato.
+            Tostadas de aguacate rosa: Pan integral tostado con aguacate triturado, decorado con rábanos en rodajas finas y un toque de polvo de remolacha para darle un color rosado.
+
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/Pancake rosa.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Plato 3</h5>
+        <p>Descripción de plato.
+            Pancakes rosados: Hechos con un toque de puré de remolacha o colorante natural rosa, servidos con crema batida y frutas frescas.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <img src="img/Bowl de quinoa y salmón.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Plato 4</h5>
+          <p>Descripción de plato.
+            Bowl de quinoa y salmón: Quinoa cocida acompañada de salmón ahumado, aguacate, rábanos, pepino y una salsa de yogur con hierbas.  
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/Ensalada.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Plato 5</h5>
+          <p>Descripción de plato.
+            Ensalada Barbie: Ensalada fresca con mezcla de lechugas, frambuesas, fresas, queso de cabra, almendras y un aderezo de vinagreta de frambuesa.
+          </p>
+        </div>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+<!-- Cards de Información -->
+<div class="container my-5">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/almuerzo.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Wrap rosa de pollo y vegetales</h5>
+          <p class="card-text">Wrap de tortilla rosa (hecha con remolacha) relleno de pollo a la parrilla, espinacas, zanahorias ralladas y hummus de pimientos rojos. $5</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/Batido Barbie.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Batido Barbie</h5>
+          <p class="card-text"> Batido de fresas con leche de almendras y helado de vainilla, decorado con crema batida y una cereza en la parte superior. $3.99</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+          <img src="img/Capuccino con arte de corazón.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Capuccino con arte de corazón </h5>
+            <p class="card-text">Un clásico con un toque delicado en la presentación. $2</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/Croisan rosa.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Croisan rosa</h5>
+            <p class="card-text">Croissant de almendras y frambuesa: Croissant relleno de una mezcla de crema de almendras y mermelada de frambuesa, con un toque de polvo de azúcar rosa + café $4.50</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/Frappuccino de fresa y crema.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Frappuccino de fresa y crema</h5>
+            <p class="card-text">Refrescante y colorido, con una base cremosa y toques de fresa. 2.50</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/Mini sándwiches de té.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Platillo</h5>
+            <p class="card-text">Mini sandwiches + soda por $5</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/Latte rosa2..webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Latte rosa</h5>
+            <p class="card-text"> Hecho con leche espumada y una infusión de remolacha o fresas para darle un tono rosado suave, decorado con arte en la espuma. $3</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/Pink Lemonade.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pink Lemonade</h5>
+            <p class="card-text">Limonada natural con un toque de fresas o frambuesas para darle el color rosa. $3</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/Postre.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Postre</h5>
+            <p class="card-text">Cupcakes rosa Barbie: Cupcakes de vainilla con cobertura de buttercream rosa, decorados con perlas comestibles y pequeños detalles en forma de zapatos o bolsos. $1</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/Matcha latte.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Matcha latte</h5>
+          <p class="card-text"> Un latte de matcha verde vibrante, lleno de antioxidantes, que combina bien con su estilo saludable. $2</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+          <img src="img/Latte rosa.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Latte rosa</h5>
+            <p class="card-text">Un café latte con un toque de jarabe de frambuesa o rosa, decorado con crema batida y polvo de oro comestible. $4</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- Formulario de Contacto -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <h3>Contáctanos</h3>
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center py-3 mt-5">
+  <p>&copy; 2024 Mi Cafetería. Todos los derechos reservados. MELY_EM</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
